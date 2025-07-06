@@ -34,6 +34,8 @@ const AudioUploader = () => {
     }
   };
 
+  //AudioUploader component renders a file input and a button to upload the audio file
+  //It also displays the transcription result after the file is processed
   return (
     <div className="container">
       <h1>Audio to Text Transcriber</h1>
